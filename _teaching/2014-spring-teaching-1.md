@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Causal Inference"
 collection: teaching
-type: "Undergraduate course"
+type: "Masters Level"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Towson University, Economics Department"
+date: 2025-01-01
+#location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This master’s level course delves into the foundational principles and advanced techniques of causal inference, emphasizing their integration with machine learning methods. Students will explore how to identify and estimate causal relationships using observational data, leveraging cutting-edge machine learning algorithms to enhance the robustness and accuracy of their analyses. 
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+The detailed course material can be found [here](https://vinishshrest.github.io/book/).
