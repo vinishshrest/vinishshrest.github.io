@@ -18,11 +18,15 @@ email: shresthavinish@gmail.com
 
 Ongoing Work 
 ----------------------
-- The Institution of American Slavery and the Efficacy of the Affordable Care Act. [Working paper link](https://ideas.repec.org/p/tow/wpaper/2023-02.html)
+- The Institution of American Slavery and the Efficacy of the Affordable Care Act. [Working paper](https://ideas.repec.org/p/tow/wpaper/2023-02.html)
 
-- Heterogeneous Impacts of ACA-Medicaid Expansion on Insurance and Labor Market Outcomes in the American South. [Working paper link](https://ideas.repec.org/p/tow/wpaper/2024-08.html)
+- Heterogeneous Impacts of ACA-Medicaid Expansion on Insurance and Labor Market Outcomes in the American South. [Working paper](https://ideas.repec.org/p/tow/wpaper/2024-08.html)
 
-- Revisiting the Effects of Cigarette Taxes on Smoking Outcomes (with Juergen Jung). [Working paper link](https://ideas.repec.org/p/tow/wpaper/2023-03.html)
+- Historical Racial Oppression and the Affordable Care Act in the American South. *draft coming soon*
+
+- Revisiting the Effects of Cigarette Taxes on Smoking Outcomes. [Working paper](https://ideas.repec.org/p/tow/wpaper/2022-02.html)
+
+- The Effects of Health and Local Unemployment on Job Promotions (with Juergen Jung). [Working paper](https://ideas.repec.org/p/tow/wpaper/2023-03.html)
 
 - Mass Schooling, Nation Building, and Long-Term Political Outcomes in Multi-ethnic Democracies, (with Apoorva Lal, Rashesh Shrestha and Avidit Acharya)
 
