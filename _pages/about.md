@@ -17,7 +17,7 @@ Contact Information
 email: shresthavinish@gmail.com
 
 Ongoing Work 
-
+----------------------
 - The Institution of American Slavery and the Efficacy of the Affordable Care Act. [Working paper link](https://ideas.repec.org/p/tow/wpaper/2023-02.html)
 
 - Heterogeneous Impacts of ACA-Medicaid Expansion on Insurance and Labor Market Outcomes in the American South. [Working paper link](https://ideas.repec.org/p/tow/wpaper/2024-08.html)
