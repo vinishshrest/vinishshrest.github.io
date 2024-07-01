@@ -1,0 +1,116 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Parallel Programming in R
+
+R can be used to parallel programming, but fork version is only compatible with Linux OS and not Windows. To do so, we will be 
+using Ubuntu OS and will be implementing a function called mclapply, which is a spiffed up version of lapply, compatible with computations across 
+more than one core.
+
+Lets go over some ways that we can conduct repetition in R. 
+
+First, we will use a dataframe iris embedded in R to select 10000 samples with replacement. Then calculate means for each sample, after which we will be performing 
+regressions based on each of the sample. 
+
+1. Writing a manual loop and lets time it.
+```{r}
+set.seed(12756)
+data <- iris
+head(data)
+reps <- 10000  #number of replications
+samp_mean <- matrix(nrow = reps, ncol = 4)   #matrix to store mean of each replication
+store_coef <- matrix(nrow = reps, ncol = 4)  #matrix to store coefficients of each replication
+system.time(
+for(i in 1:reps) {
+  samp_data <- data[sample(nrow(data), nrow(data), replace = T), ]
+  samp_mean[i,] <- c(mean(samp_data[,1]), mean(samp_data[,2]) , mean(samp_data[,3]) 
+                      , mean(samp_data[,4]))
+  reg <- lm(samp_data[,1]~samp_data[,2] + samp_data[,3] + samp_data[,4])
+  store_coef[i,] <- c(coefficients(reg))
+}
+)
+  head(samp_mean)
+  head(store_coef)
+```
+2. The next way is to use the lapply function and lets time it.
+```{r, fig.width=3, fig.height=2.5}
+set.seed(12756)
+rep_count <- seq(1, 1000)
+
+samp_mean <- matrix(nrow = reps, ncol = 4)   #matrix to store mean of each replication
+store_coef <- matrix(nrow = reps, ncol = 4)  #matrix to store coefficients of each replication
+#declare the function
+system.time({
+lm_fun <- function(rep_count) {
+  samp_data <- data[sample(nrow(data), nrow(data), replace = T), ]
+  mean_fn <- sapply(samp_data[,1:4], mean)
+  #samp_mean <- rbind(data.frame(), c(mean_fn))
+  samp_mean[rep_count,] <- c(mean_fn)
+  reg <- lm(samp_data[,1]~samp_data[,2] + samp_data[,3] + samp_data[,4])
+  #store_coef[rep_count,] <- c(coefficients(reg))
+  store_coef <- rbind(data.frame(), unlist(c(coefficients(reg))))
+  return(store_coef)
+  
+}
+coef <- lapply(rep_count, lm_fun) #stores as a list
+
+for (i in 1:1000) {
+  store_coef[i,] <- unlist(coef[i]) #There might be an easier way of unlisting
+}
+})
+
+head(store_coef)
+hist(store_coef[,1])
+
+
+```
+As it can be seen, usage of lapply function instead of the conventional looping in R reduces the execution time massively. 
+Next, lets check speed with mclapply.  
+
+```{r}
+library(parallel)
+RNGkind("L'Ecuyer-CMRG")
+#M <- 16 ## start M workers 
+#s <- .Random.seed
+#for (i in 1:M) {
+#    s <- nextRNGStream(s)# send s to worker i as .Random.seed 
+#}
+numcores <- detectCores()
+store_coef_par <- matrix(nrow = reps, ncol = 4)  #matrix to store coefficients of each replication using mcapply
+set.seed(12756)
+system.time({
+coef_par <- mclapply(rep_count, lm_fun, mc.cores = numcores, mc.set.seed=TRUE) 
+for (i in 1:1000) {
+  store_coef_par[i,] <- unlist(coef_par[i]) #There might be an easier way of unlisting
+}
+})
+
+head(store_coef_par)
+```
+What is happenning is that when lapply() is used, computation is being conducted on a single core. Setting seed using set.seed() ensures that the same set of randomly generated number (RGN) is used to extract the sample. This makes the task reproducible everytime the code is ran. However, setting the seed is different in terms of parallel computing. 
+
+When it comes to parallel computing, task will be shared between 
+```{r} 
+detectCores() 
+``` 
+workers, so one needs to be careful when using parallelization when using the fork approach.[^1] The analogy here is that each core will be acting as a cpu. When doing something repetitive using, say, mclapply function, what we want to do is make sure that each worker gets a different seed. This is done setting mc.set.seed = TRUE option. If mc.set.seed = FALSE, then each worker will take the master seed which means that same set of RGN will be used. This can be demonstrated as below:
+
+```{r}
+mclapply(seq(1,9), function(x) {runif(7)}, mc.cores = 3, mc.set.seed = FALSE)
+```
+Here, we are generating 9 samples, each of which contains 7 numbers from a unifrom distribution. The task is to be divided between 3 cores. It can been seen that the generated samples are identical at each 3 steps, which is not a desirable property. A common starting seed (from the master file) is being used by all 3 cores, which then produces a sequence of seed that are the same. This makes each 3 generated samples identical. Then next seed is taken from the master, which again generates identical next three samples.
+
+This can be taken care of by setting mc.set.seed = TRUE, which ensures that each worker or core would have a distinct seed. However, still generated numbers can be correlated after a certain number of steps. What we want to do is increase the period such that the probability of such systematic repetition of random number over streams is low. This is done by using "L'Ecuyer-CMRG" RNG in parallel package, which ensures that generated numbers are not easily correlated over streams.  
+
+[^1]:The other is socket approach -- each process on each core is unique.
+
+Here are some links that discuss parallel programming in R in detail.
+
+*[Setting seed while parallel programming](https://www.r-bloggers.com/%F0%9F%8C%B1-setting-a-seed-in-r-when-using-parallel-simulation/)
+*[R programming for data science](https://bookdown.org/rdpeng/rprogdatascience/)
+*[Intro to parallel computing in R](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html)
+*[Parallelization of regression](https://www.bioconductor.org/packages/release/data/experiment/vignettes/RegParallel/inst/doc/RegParallel.html)
+
+
