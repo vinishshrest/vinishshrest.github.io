@@ -214,6 +214,7 @@ collections:
     permalink: /:collection/:path/
   posts:
     output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
