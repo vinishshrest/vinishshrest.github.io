@@ -1,7 +1,7 @@
 ---
 title: "The Institution of American Slavery and the Efficacy of the Affordable Care Act"
 collection: portfolio
-#permalink: /publication/portfolio-1.md
+permalink: /portfolio/portfolio-1
 #excerpt: 'This study reassesses the efficacy of cigarette taxation in curtailing smoking by leveraging recent advancements in the difference-in-differences (DiD) literature to account for heterogeneous treatment effects.'
 date: 2023-02-01
 venue: 'Towson University, Department of Economics'
