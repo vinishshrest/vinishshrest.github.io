@@ -1,5 +1,5 @@
 ---
-title: "- Do Young Adults Substitute Alcohol for Cigarettes? Learning from the Master Settlement Agreement"
+title: "Do Young Adults Substitute Alcohol for Cigarettes? Learning from the Master Settlement Agreement"
 collection: publications
 permalink: /publication/2016-10-01-paper-title-number-2
 excerpt: 'This study explores the relationship between cigarette and alcohol consumption among young adults, particularly in the context of the Master Settlement Agreement. The research indicates that public policies aimed at reducing smoking can have significant spillover effects on alcohol consumption. Specifically, it examines whether these individuals turn to alcohol as a substitute when cigarette prices increase or smoking restrictions are implemented.'
