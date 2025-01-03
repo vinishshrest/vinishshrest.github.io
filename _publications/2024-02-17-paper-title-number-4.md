@@ -1,5 +1,5 @@
 ---
-title: "- Coronavirus Infections and Deaths by Poverty Status: The Effects of Social Distancing"
+title: "Coronavirus Infections and Deaths by Poverty Status: The Effects of Social Distancing"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This study analyzes the correlation between coronavirus infection and death rates and poverty status, highlighting how social distancing measures disproportionately affect lower-income communities. It emphasizes the need for targeted public health interventions to address these disparities.'
