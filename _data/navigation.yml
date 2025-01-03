@@ -3,6 +3,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Ongoing Work"
+    url: /portfolio/
+
   - title: "CV"
     url: /files/CV.pdf 
 
@@ -12,8 +15,7 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - #title: "Portfolio"
-    #url: /portfolio/
+
   
     
   #- title: "Guide"
