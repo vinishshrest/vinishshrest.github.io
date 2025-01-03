@@ -1,7 +1,12 @@
----
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
----
+Ongoing Work 
+----------------------
+- The Institution of American Slavery and the Efficacy of the Affordable Care Act. [Working paper](https://ideas.repec.org/p/tow/wpaper/2023-02.html)
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+- Heterogeneous Impacts of ACA-Medicaid Expansion on Insurance and Labor Market Outcomes in the American South. [Working paper](https://ideas.repec.org/p/tow/wpaper/2024-08.html)
+
+- Historical Racial Oppression and the Affordable Care Act in the American South. *draft coming soon*
+
+- The Effects of Health and Local Unemployment on Job Promotions (with Juergen Jung). [Working paper](https://ideas.repec.org/p/tow/wpaper/2023-03.html)
+
+- Mass Schooling, Nation Building, and Long-Term Political Outcomes in Multi-ethnic Democracies, (with Apoorva Lal, Rashesh Shrestha and Avidit Acharya)
+
