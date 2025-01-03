@@ -1,5 +1,5 @@
 ---
-title: "- Can Basic Maternal Literacy Skills Improve Infant Health Outcomes? Evidence from the Education Act in Nepal"
+title: "Can Basic Maternal Literacy Skills Improve Infant Health Outcomes? Evidence from the Education Act in Nepal"
 collection: publications
 permalink: /publication/2019-paper-title-number-2
 excerpt: 'This study investigates the impact of basic maternal literacy on infant health outcomes, utilizing evidence from National Educational System Plan in Nepal. It finds that improving maternal literacy significantly enhances infant health, demonstrating the critical role of maternal education in child health development.'
