@@ -1,5 +1,5 @@
 ---
-title: "Medicaid Work Requirements, Labor Market Effects and Welfare"
+title: "Medicaid Work Requirements, Labor Market Effects and Welfare (with Juergen Jung)"
 collection: portfolio
 permalink: /portfolio/portfolio-5
 #excerpt: 'The expansion of Medicaid through the Affordable Care Act (ACA-Medicaid) has sparked debates on its impact on local labor markets. This study delves into the heterogeneous im- pacts of ACA-Medicaid expansion on insurance and labor market outcomes in the American South.'
