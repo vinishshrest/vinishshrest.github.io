@@ -1,5 +1,5 @@
 ---
-title: "- Estimating the Price Elasticity of Demand for Different Levels of Alcohol Consumption Among Young Adults"
+title: "Estimating the Price Elasticity of Demand for Different Levels of Alcohol Consumption Among Young Adults"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-1
 excerpt: 'The study investigates how different levels of alcohol consumers respond to price changes. Using data from the National Longitudinal Survey of Youth (NLSY97), the study applies various econometric methods and finds that heavy drinkers are more responsive to price increases compared to light and moderate drinkers. This suggests that higher alcohol taxes could effectively reduce alcohol consumption among heavy drinkers, potentially lowering alcohol-related externalities among young adults.'
