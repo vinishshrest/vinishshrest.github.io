@@ -1,5 +1,5 @@
 ---
-title: "- The Affordable Care Act and College Enrollment Decisions (with Juergen Jung)"
+title: "The Affordable Care Act and College Enrollment Decisions (with Juergen Jung)"
 collection: publications
 permalink: /publication/2018-10-01-paper-title-number-1
 excerpt: 'This paper explores the impact of the Affordable Care Act (ACA) on college enrollment decisions, finding that the ACA’s dependent coverage mandate significantly increases college enrollment rates. The results suggest that improved access to health insurance under the ACA encourages higher education participation.'
