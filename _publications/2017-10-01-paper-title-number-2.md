@@ -1,5 +1,5 @@
 ---
-title: "- The Effect of Health Insurance Mandate on Labor Market Activity and Time Allocation: Evidence from the Federal Dependent Coverage Provision (with Otto Lenhart)"
+title: "The Effect of Health Insurance Mandate on Labor Market Activity and Time Allocation: Evidence from the Federal Dependent Coverage Provision (with Otto Lenhart)"
 collection: publications
 permalink: /publication/2017-10-01-paper-title-number-2
 excerpt: 'This study examines the impact of the Federal Dependent Coverage Provision on labor market activity and time allocation, finding that the health insurance mandate leads to changes in employment patterns and how individuals allocate their time. The results suggest that improved access to health insurance affects both work behavior and personal time management.'
