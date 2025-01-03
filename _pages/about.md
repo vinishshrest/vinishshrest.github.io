@@ -24,8 +24,6 @@ Ongoing Work
 
 - Historical Racial Oppression and the Affordable Care Act in the American South. *draft coming soon*
 
-- Revisiting the Effects of Cigarette Taxes on Smoking Outcomes. [Working paper](https://ideas.repec.org/p/tow/wpaper/2022-02.html)
-
 - The Effects of Health and Local Unemployment on Job Promotions (with Juergen Jung). [Working paper](https://ideas.repec.org/p/tow/wpaper/2023-03.html)
 
 - Mass Schooling, Nation Building, and Long-Term Political Outcomes in Multi-ethnic Democracies, (with Apoorva Lal, Rashesh Shrestha and Avidit Acharya)
