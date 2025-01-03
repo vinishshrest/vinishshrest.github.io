@@ -1,5 +1,5 @@
 ---
-title: "- Maternal Education and Infant Health Gradient: New Answers to Old Questions"
+title: "Maternal Education and Infant Health Gradient: New Answers to Old Questions"
 collection: publications
 permalink: /publication/2020-paper
 #excerpt: 'This paper provides in-depth relationship between mothers' income and infant health outcomes in the United States.'
