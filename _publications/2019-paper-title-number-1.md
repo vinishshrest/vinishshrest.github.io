@@ -1,5 +1,5 @@
 ---
-title: "- Cigarette Prices and Driving Fatalities Among Youths "
+title: "Cigarette Prices and Driving Fatalities Among Youths "
 collection: publications
 permalink: /publication/2019-paper-title-number-1
 #excerpt: 'This paper is about menstrual stigma. The study design uses RCT in Nepal.'
