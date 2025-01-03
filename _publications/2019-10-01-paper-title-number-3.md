@@ -1,5 +1,5 @@
 ---
-title: "- Multigenerational Effect of Education Reform: Mother's Education and Children's Human Capital in Nepal (with Rashesh Shrestha)"
+title: "Multigenerational Effect of Education Reform: Mother's Education and Children's Human Capital in Nepal (with Rashesh Shrestha)"
 collection: publications
 permalink: /publication/2019-10-01-paper-title-number-3
 excerpt: 'This study examines the multigenerational impacts of education reform in Nepal, focusing on how increased maternal education enhances children’s human capital. The findings highlight the significant causal effects of mother’s education on the educational and health outcomes of their children.'
