@@ -1,5 +1,5 @@
 ---
-title: "The Effects of Health and Local Unemployment on Job Promotions"
+title: "The Effects of Health and Local Unemployment on Job Promotions (with Juergen Jung)"
 collection: portfolio
 permalink: /portfolio/portfolio-4
 #excerpt: 'The expansion of Medicaid through the Affordable Care Act (ACA-Medicaid) has sparked debates on its impact on local labor markets. This study delves into the heterogeneous im- pacts of ACA-Medicaid expansion on insurance and labor market outcomes in the American South.'
