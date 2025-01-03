@@ -1,5 +1,5 @@
 ---
-title: "- The Pass Through of Beer Taxes to Prices: Evidence from State-Level and Federal Tax Changes (with Sara Markowitz)"
+title: "The Pass Through of Beer Taxes to Prices: Evidence from State-Level and Federal Tax Changes (with Sara Markowitz)"
 collection: publications
 permalink: /publication/2016-10-01-paper-title-number-1
 excerpt: 'The study examines how beer taxes affect retail beer prices. The findings show that a 10-cent increase in state beer taxes raises retail prices by about 17 cents, while a similar increase in federal beer taxes results in a 19-22 cent rise in retail prices. This indicates that consumers fully bear the burden of increased beer taxes.'
