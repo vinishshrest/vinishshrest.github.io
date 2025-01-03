@@ -1,5 +1,5 @@
 ---
-title: "- Healthcare Reform and Gender Specific Infant Mortality in Rural Nepal with (Juergen Jung)"
+title: "Healthcare Reform and Gender Specific Infant Mortality in Rural Nepal with (Juergen Jung)"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'This paper examines the impacts of primary health care quality on infant mortality outcomes for sons versus daughters in a society characterized by a strong preference for sons.'
